@@ -398,7 +398,7 @@ main:
 Результат сравнения определяется как знак выражения (`dest - src`) и сохраняется в специальный "невидимый" регистр `flags`.
 
 И тут нам на помощь приходят те самые *условные инструкции*, которые делают что-то в зависимости от значения регистра `flags`:  
-<image src="https://github.com/AreYouTiltedAlready/asm/blob/master/pictures/сonditionals.png" alt="Таблица условных инструкций">
+<image src="https://github.com/AreYouTiltedAlready/asm/blob/master/pictures/conditionals.png" alt="Таблица условных инструкций">
 
 Пример кода, который умножает значение в `%rax` на 3, пока оно строго меньше 243:
 ```
